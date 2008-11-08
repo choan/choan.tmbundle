@@ -1,3 +1,10 @@
 # Choan's TextMate Snippets
 
-Building and sharing my own collection of not-belonging-to-another-bundles commands and snippets.
+Building and sharing my own collection of not-belonging-to-other-bundles commands and snippets.
+
+## Tab completions for HTML
+
+* `#<tab>` creates an `id` attribute when inside a tag; a `div`–or any other element–with an `id` attribute otherwise.
+* `.<tab>` creates a `class` attribute when inside a tag; a `div`–or any other element–with a `class` attribute otherwise.
+* `lang<tab>` creates both `lang` and `xml:lang` attributes
+* `hlang<tab>` creates a `hreflang` attributes
