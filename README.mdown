@@ -16,3 +16,6 @@ Building and sharing my own collection of not-belonging-to-other-bundles command
         margin: 0;
         padding: 0;
 
+## Tab completions for JS
+
+* `t<TAB>` writes `this.`

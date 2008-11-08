@@ -8,6 +8,7 @@
 		<array>
 			<string>281B28B4-8FD8-4C3D-8D84-7082B1DAECEC</string>
 			<string>3CE13CB1-5780-4D5E-B454-85759CAA024A</string>
+			<string>C56AAA71-945C-4C41-B766-E0A1E0201DE3</string>
 			<string>9A509845-6A39-45C7-803B-AE73E3432632</string>
 		</array>
 		<key>submenus</key>
@@ -43,6 +44,15 @@
 				</array>
 				<key>name</key>
 				<string>Haml</string>
+			</dict>
+			<key>C56AAA71-945C-4C41-B766-E0A1E0201DE3</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>50D68895-B7F1-4F00-A631-A4C41415A4E8</string>
+				</array>
+				<key>name</key>
+				<string>Javascript</string>
 			</dict>
 		</dict>
 	</dict>
