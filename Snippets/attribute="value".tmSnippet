@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;${2:div} class="${1:classname}"$3&gt;
-  $0
-&lt;/${2}&gt;</string>
+	<string>${1:attr-name}="${2:$TM_SELECTED_TEXT}"</string>
 	<key>name</key>
-	<string>Insert element with class attribute</string>
+	<string>attribute="value"</string>
 	<key>scope</key>
-	<string>text.html -meta.tag -source</string>
+	<string>text.html meta.tag</string>
 	<key>tabTrigger</key>
-	<string>.</string>
+	<string>=</string>
 	<key>uuid</key>
-	<string>ABACBC9E-0506-4CA5-8F41-013356E2EA50</string>
+	<string>C1BE682B-A37E-4AF2-B5E7-5B5213889825</string>
 </dict>
 </plist>

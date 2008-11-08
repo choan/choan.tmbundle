@@ -23,6 +23,7 @@
 					<string>835114C0-6C1E-4664-A477-78AA54D3D60E</string>
 					<string>7740AB33-622B-4F4B-819D-5F4C132021F8</string>
 					<string>E0D61FC4-74A7-47D8-B0C2-74998B8C11BD</string>
+					<string>C1BE682B-A37E-4AF2-B5E7-5B5213889825</string>
 				</array>
 				<key>name</key>
 				<string>HTML</string>
@@ -50,6 +51,8 @@
 				<key>items</key>
 				<array>
 					<string>50D68895-B7F1-4F00-A631-A4C41415A4E8</string>
+					<string>3F77FEC5-7CDD-4355-9F61-699A2251C042</string>
+					<string>D0EA6CD6-119E-4891-AA85-6FAF1CC4DF1C</string>
 				</array>
 				<key>name</key>
 				<string>Javascript</string>

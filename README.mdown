@@ -4,6 +4,7 @@ Building and sharing my own collection of not-belonging-to-other-bundles command
 
 ## Tab completions for HTML
 
+* `=<tab>` writes `name="value"` pair when inside a tag.
 * `#<tab>` creates an `id` attribute when inside a tag; a `div`–or any other element–with an `id` attribute otherwise.
 * `.<tab>` creates a `class` attribute when inside a tag; a `div`–or any other element–with a `class` attribute otherwise.
 * `lang<tab>` creates both `lang` and `xml:lang` attributes
@@ -18,4 +19,5 @@ Building and sharing my own collection of not-belonging-to-other-bundles command
 
 ## Tab completions for JS
 
-* `t<TAB>` writes `this.`
+* `t<tab>` writes `this.`
+* `f<tab>` and `fun` to write anonymous functions (same shortcuts as the JavaScript bundle, slightly different output)

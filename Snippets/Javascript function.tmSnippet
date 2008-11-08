@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;${2:div} class="${1:classname}"$3&gt;
+	<string>function ${1:name}($2) {
   $0
-&lt;/${2}&gt;</string>
+}</string>
 	<key>name</key>
-	<string>Insert element with class attribute</string>
+	<string>function</string>
 	<key>scope</key>
-	<string>text.html -meta.tag -source</string>
+	<string>source.js</string>
 	<key>tabTrigger</key>
-	<string>.</string>
+	<string>fun</string>
 	<key>uuid</key>
-	<string>ABACBC9E-0506-4CA5-8F41-013356E2EA50</string>
+	<string>3F77FEC5-7CDD-4355-9F61-699A2251C042</string>
 </dict>
 </plist>
