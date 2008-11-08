@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Choan</string>
+	<key>ordering</key>
+	<array>
+		<string>E0D61FC4-74A7-47D8-B0C2-74998B8C11BD</string>
+		<string>E9133708-6B53-47CF-BC7C-04C7D22494E8</string>
+		<string>835114C0-6C1E-4664-A477-78AA54D3D60E</string>
+		<string>49FDBE22-E168-4F4E-A48E-006596F849B4</string>
+		<string>ABACBC9E-0506-4CA5-8F41-013356E2EA50</string>
+		<string>7740AB33-622B-4F4B-819D-5F4C132021F8</string>
+		<string>C1659E47-D1F5-4D0C-B4BD-7B1FE4425A54</string>
+		<string>B37DB0F1-EABD-4294-877E-F4B2A25C38B2</string>
+	</array>
+	<key>uuid</key>
+	<string>9C27B3F4-2536-47CD-9FAC-29D118338673</string>
+</dict>
+</plist>
