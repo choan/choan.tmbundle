@@ -8,3 +8,11 @@ Building and sharing my own collection of not-belonging-to-other-bundles command
 * `.<tab>` creates a `class` attribute when inside a tag; a `div`–or any other element–with a `class` attribute otherwise.
 * `lang<tab>` creates both `lang` and `xml:lang` attributes
 * `hlang<tab>` creates a `hreflang` attributes
+
+## Tab completions for CSS
+
+* `zero<tab>` writes
+    
+        margin: 0;
+        padding: 0;
+
