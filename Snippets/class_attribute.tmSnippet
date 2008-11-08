@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>class="${1:classname}"</string>
 	<key>name</key>
-	<string>class atribute</string>
+	<string>Insert class atribute</string>
 	<key>scope</key>
 	<string>text.html meta.tag</string>
 	<key>tabTrigger</key>

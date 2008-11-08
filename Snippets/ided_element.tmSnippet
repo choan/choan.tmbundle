@@ -7,7 +7,7 @@
   $0
 &lt;/${2}&gt;</string>
 	<key>name</key>
-	<string>id element</string>
+	<string>Insert element with id attribute</string>
 	<key>scope</key>
 	<string>text.html -meta.tag -source</string>
 	<key>tabTrigger</key>

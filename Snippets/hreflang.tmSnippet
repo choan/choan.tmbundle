@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>hreflang="${1:en}"</string>
 	<key>name</key>
-	<string>hreflang</string>
+	<string>Insert hreflang attribute</string>
 	<key>scope</key>
 	<string>text.html meta.tag, text.xml meta.tag</string>
 	<key>tabTrigger</key>

@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>xml:lang="${1:en}" lang="$1"</string>
 	<key>name</key>
-	<string>lang</string>
+	<string>Insert lang attribute</string>
 	<key>scope</key>
 	<string>text.html meta.tag, text.xml meta.tag</string>
 	<key>tabTrigger</key>

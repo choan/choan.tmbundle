@@ -7,7 +7,7 @@
   $0
 &lt;/${2}&gt;</string>
 	<key>name</key>
-	<string>classed element</string>
+	<string>Insert element with class attribute</string>
 	<key>scope</key>
 	<string>text.html -meta.tag</string>
 	<key>tabTrigger</key>
