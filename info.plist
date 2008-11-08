@@ -2,6 +2,50 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>281B28B4-8FD8-4C3D-8D84-7082B1DAECEC</string>
+			<string>3CE13CB1-5780-4D5E-B454-85759CAA024A</string>
+			<string>9A509845-6A39-45C7-803B-AE73E3432632</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>281B28B4-8FD8-4C3D-8D84-7082B1DAECEC</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>49FDBE22-E168-4F4E-A48E-006596F849B4</string>
+					<string>ABACBC9E-0506-4CA5-8F41-013356E2EA50</string>
+					<string>E9133708-6B53-47CF-BC7C-04C7D22494E8</string>
+					<string>835114C0-6C1E-4664-A477-78AA54D3D60E</string>
+					<string>7740AB33-622B-4F4B-819D-5F4C132021F8</string>
+					<string>E0D61FC4-74A7-47D8-B0C2-74998B8C11BD</string>
+				</array>
+				<key>name</key>
+				<string>HTML</string>
+			</dict>
+			<key>3CE13CB1-5780-4D5E-B454-85759CAA024A</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>DD616F15-379F-446F-B00E-1BDE1419AB2F</string>
+				</array>
+				<key>name</key>
+				<string>CSS</string>
+			</dict>
+			<key>9A509845-6A39-45C7-803B-AE73E3432632</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>C1659E47-D1F5-4D0C-B4BD-7B1FE4425A54</string>
+				</array>
+				<key>name</key>
+				<string>Haml</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>Choan</string>
 	<key>ordering</key>
