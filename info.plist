@@ -51,6 +51,8 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>1F9188EF-160B-49ED-8101-99A637FCA094</string>
+					<string>AFFB620A-757F-4767-A851-E54EAA4DEDA4</string>
 					<string>61F09758-7695-4829-BAE8-196A7E8B9B8C</string>
 					<string>50D68895-B7F1-4F00-A631-A4C41415A4E8</string>
 					<string>3F77FEC5-7CDD-4355-9F61-699A2251C042</string>
@@ -65,6 +67,8 @@
 	<string>Choan</string>
 	<key>ordering</key>
 	<array>
+		<string>1F9188EF-160B-49ED-8101-99A637FCA094</string>
+		<string>AFFB620A-757F-4767-A851-E54EAA4DEDA4</string>
 		<string>E0D61FC4-74A7-47D8-B0C2-74998B8C11BD</string>
 		<string>E9133708-6B53-47CF-BC7C-04C7D22494E8</string>
 		<string>835114C0-6C1E-4664-A477-78AA54D3D60E</string>

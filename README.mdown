@@ -22,6 +22,8 @@ Building and sharing my own collection of not-belonging-to-other-bundles command
 
 * `t<tab>` writes `this.`
 * `f<tab>` and `fun` to write anonymous functions (same shortcuts as the JavaScript bundle, slightly different output)
+* `doc<tab>` writes `document`
+* `$<tab>` writes `$()`
 
 ## Shortcuts for JS
 
