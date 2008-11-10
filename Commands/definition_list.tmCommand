@@ -8,16 +8,17 @@
 	<string>#!/usr/bin/env ruby
 lines = STDIN.readlines.map { |l| l.chomp }.reject { |l| l =~ /^\s*$/ }
 if lines.length &gt; 0
-  puts '&lt;dl&gt;'
+  tab = "\t"
+  puts '&lt;dl${1: ${2:c}${2/(c)|(i)|.*/(?1:lass)(?2:d)/}="${4:value}"}&gt;'
   lines.each do |l|
     tag, indent = if l =~ /^:/
-      l.gsub!(/^:\s*|\s$/, '')
+      l.gsub!(/^:\s*|\s*$/, '')
       [ 'dt', 1 ]
     else
-      l.gsub!(/^\s*|\s$/, '')      
+      l.gsub!(/^\s*|\s*$/, '')      
       [ 'dd', 2 ]
     end
-    puts %[#{"\t" * indent}&lt;#{tag}&gt;#{l}&lt;/#{tag}&gt;]
+    puts %[#{tab * indent}&lt;#{tag}&gt;#{l}&lt;/#{tag}&gt;]
   end
   puts '&lt;/dl&gt;'
 end</string>
@@ -30,7 +31,7 @@ end</string>
 	<key>name</key>
 	<string>Definition list</string>
 	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>insertAsSnippet</string>
 	<key>scope</key>
 	<string>text.html, text.xml</string>
 	<key>uuid</key>
