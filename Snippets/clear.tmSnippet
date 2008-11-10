@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>clear: ${1:l}${1/(b)|(l)|(r)/(?1:oth)(?2:eft)(?3:ight)/};</string>
+	<string>clear: ${1:l}${1/(b)|(l)|(r)|.*/(?1:oth)(?2:eft)(?3:ight)/};</string>
 	<key>name</key>
 	<string>clear</string>
 	<key>scope</key>

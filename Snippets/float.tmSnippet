@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>float: ${1:l}${1/(l)|(r)|(n)/(?1:eft)(?2:ight)(?3:one)/};</string>
+	<string>float: ${1:l}${1/(l)|(r)|(n)|.*/(?1:eft)(?2:ight)(?3:one)/};</string>
 	<key>name</key>
 	<string>float</string>
 	<key>scope</key>
