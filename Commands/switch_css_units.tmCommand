@@ -27,7 +27,7 @@ end</string>
 	<key>output</key>
 	<string>replaceSelectedText</string>
 	<key>scope</key>
-	<string>meta.property-value.css</string>
+	<string>meta.property-value.css, meta.property-value.sass</string>
 	<key>uuid</key>
 	<string>0F74D574-7DE8-406D-9E1B-B82DD34B7BEB</string>
 </dict>
