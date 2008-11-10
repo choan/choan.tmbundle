@@ -18,12 +18,22 @@ Building and sharing my own collection of not-belonging-to-other-bundles command
         margin: 0;
         padding: 0;
 
+* `cl<tab>` writes a `clear: something` rule. Type l/r/b for left/right/both
+* `fl<tab>` writes a `float: something` rule. Type l/r/n for left/right/none
+* `mauto<tab>` writes `margin: 0 auto;`
+
+
+## Shortcuts for CSS
+
+* When in a property value, `<ESC>` switches units between em/px/%
+
 ## Tab completions for JS
 
 * `t<tab>` writes `this.`
 * `f<tab>` and `fun` to write anonymous functions (same shortcuts as the JavaScript bundle, slightly different output)
 * `doc<tab>` writes `document`
 * `$<tab>` writes `$()`
+* `fo<tab>` writes a for loop.
 
 ## Shortcuts for JS
 
