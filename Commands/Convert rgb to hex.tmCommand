@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env php
+&lt;?php
+function rgb2hex($r, $g, $b) {
+  return '#' . dec2hex($r) . dec2hex($g) . dec2hex($b);
+}
+
+function dec2hex($v) {
+  return str_pad(dechex($v), 2, '0', STR_PAD_LEFT);
+}
+
+function convertString($s) {
+  $a = split("\r\n|\n", $s);
+  for ($i = 0; $i &lt; count($a); $i++) {
+    $a[$i] = preg_replace_callback("/rgb\(\s*(\d+),\s*(\d+),\s*(\d+)\)/", "_cb_replace", $a[$i]);
+  }
+  
+  return join("\n", $a);
+}
+
+function _cb_replace($matches) {
+  return rgb2hex($matches[1], $matches[2], $matches[3]);
+}
+
+if (isset($_ENV['TM_SELECTED_TEXT'])) {
+  $input = get_magic_quotes_gpc() ? stripslashes($_ENV['TM_SELECTED_TEXT']) : $_ENV['TM_SELECTED_TEXT'];
+} else {
+  $input = file_get_contents('php://stdin');
+}
+
+print convertString($input);
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^~@h</string>
+	<key>name</key>
+	<string>Convert rgb to hex</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>uuid</key>
+	<string>7BA40F3F-1250-4654-89EF-682D68C2BE8E</string>
+</dict>
+</plist>
